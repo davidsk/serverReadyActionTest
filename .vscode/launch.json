@@ -9,7 +9,7 @@
         "request": "launch",
         "name": "Launch Program",
         "program": "${workspaceFolder}/app.js",
-      
+        "console": "integratedTerminal",
         "serverReadyAction": {
           "pattern": "listening on port ([0-9]+)",
           "uriFormat": "http://localhost:%s",
